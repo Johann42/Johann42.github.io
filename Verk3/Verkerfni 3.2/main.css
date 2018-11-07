@@ -1,0 +1,84 @@
+body {
+margin-top: 0;
+margin-left: 3em;
+margin-right: 3em;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "haus haus haus haus haus"
+    "hlekkur1 hlekkur2 hlekkur3 hlekkur4 hlekkur5"
+    "vinstri midja midja midja haegri"
+    "fotur fotur fotur fotur fotur";
+}
+
+.h{
+    grid-area: haus;
+    background: yellow;
+    background-image: linear-gradient(red, yellow);
+    text-align: center;
+    font-size: 3em;
+    padding: 2em;
+    margin: 0;
+}
+
+.hl1{
+    grid-area: hlekkur1;
+    background: burlywood; 
+    padding: 1em;
+    margin: 0;
+}
+
+.hl2{
+    grid-area: hlekkur2;
+    background: burlywood; 
+    padding: 1em;
+    margin: 0;
+}
+
+.hl3{
+    grid-area: hlekkur3;
+    background: burlywood; 
+    padding: 1em;
+    margin: 0;
+}
+
+.hl4{
+    grid-area: hlekkur4;
+    background: burlywood; 
+    padding: 1em;
+    margin: 0;
+}
+
+.hl5{
+    grid-area: hlekkur5;
+    background: burlywood; 
+    padding: 1em;
+    margin: 0;
+}
+.vinstri{
+    grid-area: vinstri;
+    background: brown;
+    line-height: 1.8em;
+    font-size: 1.5em;
+}
+
+.midja{
+    grid-area: midja;
+    background: salmon;
+    line-height: 1.5em;
+    font-size: 1.8em;
+}
+
+.haegri{
+    grid-area: haegri;
+    background: brown;
+    line-height: 1.8em;
+    font-size: 1.5em;
+}
+
+.f{
+    grid-area: fotur;
+    background: lime;
+}

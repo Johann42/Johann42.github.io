@@ -1,0 +1,153 @@
+body {
+	margin: 0;
+}
+#efnii{
+	background-color: pink;
+}
+#efnii .header {
+	color: green;
+}
+#efnii h3{
+	color: yellow;
+	font-size: 2em;
+}
+#efnii h1{
+	color: orange;
+	text-align: center;
+	font-size: 3em;
+}
+.arrow{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+.mainn{
+	text-align: center;
+}
+.header{
+	background-color: blue;
+	color: white;
+	margin: 0;
+	padding: 2em;
+	text-align: left;
+}
+.anav {
+	background-color: blue;
+	text-decoration: none;
+	list-style: none;
+}
+.anav a{
+	color: yellow;
+}
+.baklitir {
+	display: inline-block;
+}
+.header h1{
+	font-size: 3em;
+	margin-left: 3em;
+	display: inline-block;
+}
+.header a{
+	color: yellow;
+	font-size: 1.5em;
+}
+.header a:active {
+	color: black;
+}
+.header a:hover {
+	font-size: 2em;
+}
+.nav {
+	text-align: right;
+	display: inline-block;
+	float: right;
+}
+.main{
+	background-color: pink;
+	margin: 0;
+	padding-left: 6em;
+	padding-right: 6em;
+}
+.main h1{
+	margin: 0;
+}
+.main blockquote{
+	margin: 0;
+}
+.main p, .main blockquote{
+	margin: 0;
+	font-size: 1.5em;
+}
+.main blockquote{
+	opacity: 0.5;
+	background-color: white;
+}
+.main h1{
+	font-size: 3em;
+	text-align: center;
+}
+.mainn{
+	background-color: pink;
+	margin: 0;
+}
+.mainn h1{
+	font-size: 2em;
+}
+.mainn p{
+	font-size: 1.2em;
+}
+.footer {
+	background-color: darkblue;
+	color: lightyellow;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.list{
+	display: inline-block;
+	text-align: center;
+}
+.alist{
+	display: inline-block;
+	text-align: right;
+}
+.footer dt{
+	color: yellow;
+}
+dl {
+	display: inline-block;
+	float: left;
+}
+.footer a{
+	color: yellow;
+}
+.footer a:active{
+	color: grey;
+}
+.footer a:hover{
+	color: red;
+}
+.footer h4{
+	margin: 0;
+}
+.efni {
+	display: inline-block;
+}
+.verk {
+	display: inline-block;
+}
+
+/*Gérði 931px því allt minna en það þá fer síðan í rugl*/
+@media only screen and (max-width: 931px) {
+
+    body {
+        background-color: lightblue;
+    }
+    .nav{
+    	float:none;
+    	display: block;
+    }
+    .main{
+    	font-size: 1em;
+    }
+
+}

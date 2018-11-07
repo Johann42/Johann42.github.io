@@ -1,0 +1,62 @@
+.p1{
+	font-size: 20px;
+	color: blue;
+}
+ul{
+	list-style: none;
+}
+li {
+	float: center;
+	font-size: 25px;
+}
+ol {
+	font-size: 22px;
+}
+main {
+	max-width: 50em;
+}
+h1:nth-of-type(1) {
+	color: orange;
+	text-align: center;
+}
+h2:nth-of-type(1) {
+	color:magenta;
+}
+.sans {
+	font-family: Comic Sans MS;
+	border-bottom: 2px blue solid;
+}
+.border {
+	border-bottom: 2px blue solid;
+}
+strong{
+	color: red;
+}
+.lennon {
+	font-size: 12px
+}
+ol{
+	color: lime;
+}
+em{
+	color: blue;
+}
+a:hover{
+	background-color: blue;
+}
+a:visited{
+	background-color: blue
+	color: grey;
+}
+a:active{
+	background-color: yellow;
+	color: black;
+}
+a{
+	float: left;
+	font-size: 20px;
+}
+.eitt{
+	color: green;
+	font-size: 35px;
+}

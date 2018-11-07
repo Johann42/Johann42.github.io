@@ -1,0 +1,58 @@
+body{
+
+}
+.box1{
+	border: 3px solid green;
+}
+.box2{
+	border: 3px solid green;
+	margin: 50px;
+}
+.box2b{
+	border: 5px solid red;
+}
+.box3{
+	border: 5px dashed blue;
+	padding: 25px;
+	margin: 50px;
+	color: blue;
+}
+.box3b{
+	border: 5px solid red;
+	margin-top: 35px;
+}
+
+
+
+.list1 li{
+	display: block;
+	border: 3px dashed green;
+	margin: 1em;
+	padding: 1em;
+}
+.list2 li{
+	display: inline;
+	padding: 1em;
+	margin: 1em;
+	border: 3px dashed blue;
+}
+.ulmb {
+	margin-bottom: 3em;
+}
+.list3 li{
+	display: inline-block;
+	padding: 1em;
+	margin: 1em;
+	border: 3px dashed red;
+}
+.boxa1, .boxa2, .boxa3 {
+	float: left;
+	border: 1px solid black;
+	width: 33%;
+
+}
+.boxb2, .boxb1{
+	width: 49.5%;
+	border: 1px solid black;
+	float: left;
+}

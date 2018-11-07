@@ -1,0 +1,80 @@
+body {
+font-family: serif, sans-serif;
+}
+.verk311{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: "Ta Tb Tc"
+						 "Ta Tb Tc";
+	padding: 5px;
+	margin-bottom: 15px
+}
+.Roman{ grid-area: Ta;
+border: 2px solid black;
+font-family: "Times New Roman" }
+.sans{ grid-area: Tb;
+border: 2px solid black;
+font-family: "Arial", "sans-serif";}
+.Courier{grid-area: Tc;
+border: 2px solid black;
+font-family: "Courier", "monotype"}
+.verk311 p{
+	font-size: 1em;
+}
+
+.verk312 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 350px 350px 350px;
+	grid-template-areas: "GT TG"
+						 "AP PA";
+}
+
+.GT{grid-area: GT;
+border: 2px solid black;}
+.GT h2{ font-family: "Georgia" }
+.GT p{ font-family: "Trebuchet" }
+.TG{grid-area: TG;
+border: 2px solid black;}
+.TG h2{ font-family: "Trebuchet" }
+.TG p{ font-family: "Georgia" }
+.AP{grid-area: AP;
+border: 2px solid black;}
+.AP h2{ font-family: "Arial black" }
+.AP p{ font-family: "Palatino Linotype" }
+.PA{grid-area: PA;
+border: 2px solid black;}
+.PA h2{ font-family: "Palatino Linotype" }
+.PA p{ font-family: "Arial black" }
+
+
+
+.pre1{
+	line-height: 1.6em;
+	letter-spacing: 0.05em;
+	grid-area: prea;
+	border: 2px solid black;
+	font-size: 0.7em;
+	margin: 0;
+}
+.pre2{
+	border: 2px solid black;
+	grid-area: preb;
+}
+.verk315{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: "prea preb";
+	margin: 2em;
+}	
+.pre2 pre{
+	color: red;
+}
+.poster{
+	font-family: "impact";
+	text-align: center;
+	font-size: 3em;
+	background-color: orange;
+
+}
